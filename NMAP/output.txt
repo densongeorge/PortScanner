@@ -1,0 +1,45 @@
+anand@anand-Inspiron-5537:~/NetworkProgrammingAssignment/Assignment3$ make
+gcc -o server NMAP_SERVER.c -lm -lpthread
+anand@anand-Inspiron-5537:~/NetworkProgrammingAssignment/Assignment3$ sudo ./server 192.168.0.1/29
+SubnetMask is 255.255.255.248
+Network Id is 192.168.0.1 
+Hosts In The Network Are
+ 192.168.0.1	 192.168.0.2	 192.168.0.3	 192.168.0.4
+ 192.168.0.5	 192.168.0.6	 192.168.0.7	
+
+ Network Size Is 6
+bind: Success
+alarm generated
+Active Hosts
+192.168.0.1	192.168.0.2
+192.168.0.3	192.168.0.4
+
+alarm generated
+
+ UDP Active Ports 
+ 192.168.0.2 Port 1 	 192.168.0.2 Port 3 
+ 192.168.0.2 Port 4 	 192.168.0.2 Port 6 
+ 192.168.0.2 Port 8 	 192.168.0.2 Port 10 
+ 192.168.0.2 Port 13 	 192.168.0.2 Port 14 
+ 192.168.0.2 Port 15 	 192.168.0.2 Port 16 
+ 192.168.0.2 Port 17 	 192.168.0.2 Port 18 
+ 192.168.0.2 Port 19 	 192.168.0.2 Port 20 
+ 192.168.0.2 Port 21 	 192.168.0.2 Port 22 
+ 192.168.0.2 Port 23 	 192.168.0.2 Port 24 
+ 192.168.0.3 Port 5 	 192.168.0.3 Port 14 
+ 192.168.0.4 Port 7 	 192.168.0.4 Port 8 
+ 192.168.0.4 Port 9 	 192.168.0.4 Port 10 
+ 192.168.0.4 Port 11 	 192.168.0.4 Port 12 
+ 192.168.0.4 Port 13 	 192.168.0.4 Port 14 
+ 192.168.0.4 Port 15 	 192.168.0.4 Port 16 
+ 192.168.0.4 Port 17 	 192.168.0.4 Port 18 
+ 192.168.0.4 Port 19 	 192.168.0.4 Port 20 
+ 192.168.0.4 Port 21 	 192.168.0.4 Port 22 
+ 192.168.0.4 Port 23 	 192.168.0.4 Port 24 
+
+
+ TCP Active Ports
+ 192.168.0.1 Port 23 	 192.168.0.3 Port 17 
+ 192.168.0.3 Port 18 	 192.168.0.3 Port 22 
+
+
